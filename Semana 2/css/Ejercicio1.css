@@ -1,0 +1,15 @@
+table{
+    margin: auto;
+    border-spacing: 10px;
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+
+.antiquewhite{
+    background-color: antiquewhite;
+}
+.red{
+    background-color: red;
+}

@@ -1,0 +1,34 @@
+#tbl_libros {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+}
+
+#tbl_libros tr {
+    height: 40px;
+}
+
+#tbl_libros tr td,
+#tbl_libros tr th {
+    padding: 10px;
+    text-align: center;
+}
+
+#tbl_libros thead tr {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#tbl_libros thead tr th {
+    color: #D70060;
+}
+
+#tbl_libros tbody tr {
+    border-bottom: 2px solid #D0D102;
+    font-size: 24px;
+}
+
+#tbl_libros tbody tr:hover{
+    background: #D70060;
+    color: #fff;
+}

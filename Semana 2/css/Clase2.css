@@ -1,0 +1,29 @@
+h1{
+    color: blueviolet;
+    font-size: 50px;
+}
+h2{
+    font-size: 100px;
+    text-align: center;
+}
+.miEstilo{
+    font-size: 12px;
+    color:red;
+}
+.miSegundoEstilo{
+    color: rgb(47, 220, 20);
+    text-align: center;
+}
+#miPrimerParrafo{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#miSegundoParrafo{
+    color: blue;
+}
+#miSegundoParrafo span strong{
+    color: red;
+}
+#miSegundoParrafo span{
+    color: black;
+}
