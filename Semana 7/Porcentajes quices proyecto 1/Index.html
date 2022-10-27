@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificacion quices</title>
+    <link rel="stylesheet" href="./css/Index.css">
+</head>
+<body>
+    <div class="centerDiv">
+        <label for="txtCalificacionMoodle">Calificacion del Quiz:</label>
+        <input type="number" id="txtCalificacionMoodle" onkeyup="CalcularAl333Porciento()">
+        <h3 id="Resultado"> Resultado en base 3.33% es: </h3>
+        <button type="button" onclick="CalcularAl333Porciento()">Calcular</button>
+    </div>
+
+    <div class="centerDiv">
+        <label for="txtValor1"> Ingrese un numero </label>
+        <input type="number" id="txtValor1" onblur="VerValorOnblur()">
+        <div>
+            <label for="txtResultadoOnblur">Resultado Onblur</label>
+            <output id="txtResultadoOnblur"></output>
+        </div>
+    </div>
+    
+    <div class="centerDiv">
+        <label for="txtValor2"> Ingrese un numero </label>
+        <input type="number" id="txtValor2" onkeyup="verOnkeyup()">
+        <div>
+            <label for="txtResultadoOnkeyup">Resultado Onkeyup</label>
+            <output id="txtResultadoOnkeyup"></output>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/Index.js"></script>
+</body>
+</html>

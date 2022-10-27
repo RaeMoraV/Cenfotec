@@ -1,0 +1,46 @@
+.formulario{
+    margin: 0 auto;
+    width: 50%;
+}
+.formulario h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.formulario .contenedorInput{
+    margin-bottom: 20px;
+}
+.formulario label{
+    display: inline-block;
+    height: 45px;
+    width: 150px;
+}
+
+.formulario input{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    height: 45px;
+    width: 300px;
+}
+.formulario button{
+    background: #004898;
+    border-radius: 5px;
+    border-color: transparent;
+    color: #fff;
+    height: 45px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+.formulario button:hover{
+    background: #1373e0;
+}
+.formulario hr {
+    margin-bottom: 20px;
+}
+.formulario output{
+    border: 2px solid #000;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    height: 45px;
+    width: 300px;
+}
