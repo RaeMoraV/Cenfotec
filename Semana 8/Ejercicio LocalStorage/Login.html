@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/Login.css">
+</head>
+<body>
+    
+    <main>
+        <h2>Iniciar Sesión</h2>
+        <div>
+            <label for="txtUser">Usuario</label>
+            <input type="text" id="txtUser">
+        </div>
+        <div>
+            <label for="txtPass">Contraseña</label>
+            <input type="password" id="txtPass">
+        </div>
+        <button type="button" id="btnInicioSesion" onclick="IniciarSesion()">Iniciar</button>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./Js/Services/SesionService.js"></script>
+    <script src="./Js/Services/LoginService.js"></script>
+    <script src="./Js/Controllers/LoginController.js"></script>
+</body>
+</html>
