@@ -1,0 +1,48 @@
+table{
+    margin: auto;
+    border-spacing: 10px;
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+
+.antiquewhite{
+    background-color: antiquewhite;
+}
+.red{
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.dodgerblue {
+    background-color: dodgerblue;
+}
+.mediumslateblue {
+    background-color: mediumslateblue;
+}
+.purple {
+    background-color: purple;
+}
+.aqua{
+    background-color: aqua;
+}
+.darkcyan{
+    background-color: darkcyan;
+}
+.brown{
+    background-color: brown;
+}
+.black{
+    background-color: black;
+}
+.hotpink{
+    background-color: hotpink;
+}
+.yellow{
+    background-color: yellow;
+}
+.gold{
+    background-color: gold;
+}

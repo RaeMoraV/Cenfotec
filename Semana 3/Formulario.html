@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario html</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="txtNombre"> Nombre</label>
+            <input type="text" id="txtNombre">
+        </div>
+        <div>
+            <label for="txtApellido"> Apellido</label>
+            <input type="text" id="txtApellido">
+        </div>
+        <div>
+            <label for="txtEdad" >Edad</label>
+            <input type="number" min="0" max="120"  id="txtEdad">
+        </div>
+        <div>
+            <label for="txtEmail">Correo Electronico</label>
+            <input type="email" id="txtEmail">
+        </div>
+        <div>
+            <label for="txtPassword">Contraseña</label>
+            <input type="password" id="txtPassword">
+        </div>
+        <div>
+            <label for="txtDate">Fecha Nacimiento</label>
+            <input type="date" id="txtDate">
+        </div>
+        <div>
+            <label for="txtMasculino">Masculino</label>
+            <input type="radio" id="txtMasculino" name="sexo">
+            <label for="txtFemenino">Femenino</label>
+            <input type="radio" id="txtFemenino" name="sexo">
+            <label for="txtOtro">Otro</label>
+            <input type="radio" id="txtOtro" name="sexo">
+        </div>
+        <div>
+            <label for="txtDrama">Drama</label>
+            <input type="checkbox" name="" id="txtDrama">
+            <label for="txtSuspenso">Suspenso</label>
+            <input type="checkbox" name="" id="txtSuspenso">
+            <label for="txtAccion">Accion</label>
+            <input type="checkbox" name="" id="txtAccion">
+        </div>
+        <div>
+            <label for="sleProvincia">Provincia</label>
+            <select name="" id="sleProvincia">
+                <option value="">--Seleccione--</option>
+                <option value="1">San jose</option>
+                <option value="2">Alajuela</option>
+                <option value="3">Cartago</option>
+                <option value="4">Heredia</option>
+                <option value="5">Guanacaste</option>
+                <option value="6">Puntarenas</option>
+                <option value="7">Limon</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="txtUbicacion">Direccion señas</label>
+            <textarea id="txtUbicacion" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="button" >Registrar</button>
+    </form>
+</body>
+</html>
