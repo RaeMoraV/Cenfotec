@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="txtTitulo" id="lblTitulo">Titulo</label>
+            <input type="text" id="txtTitulo">
+        </div>
+        <div>
+            <label for="txtEditorial" id="lblEditorial">Editorial</label>
+            <input type="text" id="txtEditorial">
+        </div>
+        <div>
+            <label for="numPrecio" id="lblPrecio">Precio</label>
+            <input type="text" id="numPrecio" min="0">
+        </div>
+        <button type="button" id="btnRegistrar">Registrar</button>
+    </form>
+
+    <table id="tblLibros">
+        <thead>
+            <tr>
+                <th>Titulo</th>
+                <th>Editorial</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody id="tbdLibros">
+
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+
+    <script src="./js/services/indexService.js"></script>
+    <script src="./js/controllers/indexController.js"></script>
+</body>
+
+</html>
