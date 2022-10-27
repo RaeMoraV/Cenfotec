@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIENVENIDOS A MI HOTEL ESTELAR</title>
+    <link rel="stylesheet" href="./css/FormularioHotel.css">
+</head>
+<body>
+    <h1>BIENVENIDOS A MI HOTEL ESTELAR</h1>
+    <form action="">
+        <div>
+            <label for="txtNombre">Nombre</label>
+            <input type="text" id="txtNombre" placeholder="Escriba su nombre">
+        </div>
+        <div>
+            <label for="NumCantAcompantes">Cantidad de acompañantes</label>
+            <input type="number" id="NumCantAcompantes" placeholder="Escriba la cantidad de acompañantes"
+            min="0" max="25">
+        </div>
+        <div>
+            <label for="NumCantNinos">Cantidad de niños</label>
+            <input type="number" id="NumCantNinos" placeholder="Escriba la cantidad de niños"
+            min="0" max="25">
+        </div>
+        <div>
+            <label for="NumCantMascotas">Cantidad de mascotas</label>
+            <input type="number" id="NumCantMascotas" placeholder="Escriba la cantidad de mascotas"
+            min="0" max="5">
+        </div>
+        <div>
+            <label for="FechaEntrada">Fecha de entrada</label>
+            <input type="date" id="FechaEntrada">
+        </div>
+        <div>
+            <label for="FechaSalida">Fecha de salida</label>
+            <input type="date" id="FechaSalida">
+        </div>
+        <div>
+            <label for="SlctTipoCuarto">Tipo de cuarto</label>
+            <select id="SlctTipoCuarto">
+                <option value="">--Seleccione--</option>
+                <option value="1" title="1 cama matrimonial">Pequeño</option>
+                <option value="2" title="2 camas matrimoniales y 1 individual">Grande</option>
+                <option value="3" title="3 camas matrimonales y 2 individuales">Extra grande</option>
+            </select>
+        </div>
+        <div>
+            <label for="txtOpcionesExtra">Opciones para luna de miel</label>
+            <textarea id="txtOpcionesExtra" cols="30" rows="10"></textarea>
+        </div>
+        <!-- <button type="button">Guardar</button> -->
+        <input type="button" value="Guardar">
+    </form>
+</body>
+</html>

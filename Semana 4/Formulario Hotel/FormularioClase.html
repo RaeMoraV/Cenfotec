@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="txtNombre">Nombre</label>
+            <input type="text" id="txtNombre" placeholder="Limberth Vasquez" value="Silvia Villalobos">
+          </div>
+          <div>
+            <label for="txtEdad">Edad</label>
+            <input type="number" id="txtEdad" placeholder="21" min="0" max="100">
+          </div>
+          <div>
+            <label for="txtContrasenna">Contraseña</label>
+            <input type="password" id="txtContrasenna">
+          </div>
+        <div>
+            <fieldset>
+                <legend>Me gustaría recibir información de:</legend>
+        
+                <label for="chkRevistas">Revistas</label>
+                <input type="checkbox" id="chkRevistas" value="Revistas">
+                <label for="chkJuegos">Juegos</label>
+                <input type="checkbox" id="chkJuegos" value="Juegos">
+                <label for="chkDocumentales">Documentales</label>
+                <input type="checkbox" id="chkDocumentales" value="Documentales">
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Forma de pago:</legend>
+            
+                <label for="rbtEfectivo">Efectivo</label>
+                <input type="radio" id="rbtEfectivo" value="Efectivo" name="rbtFormaPago">
+                
+                <label for="rbtTarjeta">Tarjeta</label>
+                <input type="radio" id="rbtTarjeta" value="Tarjeta" name="rbtFormaPago">
+                
+                <label for="rbtcheque">Cheque</label>
+                <input type="radio" id="rbtcheque" value="Cheque" name="rbtFormaPago">
+            </fieldset>
+          </div>
+        <div>
+            <label for="txtComentarios">Ingrese su comentario</label>
+            <textarea id="txtComentario" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="sltProvincia">Provincia</label>
+            <select id="sltProvincia">
+                <option value="">--Seleccione una provincia--</option>
+                <optgroup label="Dentro de la GAM">
+                  <option value="San José">San José</option>
+                  <option value="Cartago">Cartago</option>
+                  <option value="Alajuela">Alajuela</option>
+                  <option value="Heredia">Heredia</option>
+                </optgroup>
+                <optgroup label="Fuera de la GAM">
+                  <option value="Puntarenas">Puntarenas</option>
+                  <option value="Guanacaste">Guanacaste</option>
+                  <option value="Limón">Limón</option>
+                </optgroup>
+              </select>
+        </div>
+          <button type="button"> Registrar </button>
+
+
+    </form>
+</body>
+</html>

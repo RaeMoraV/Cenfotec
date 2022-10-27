@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/EjemploFormulario.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label for="txtNombre1">Primer nombre</label>
+            <input type="text" id="txtNombre1">
+        </div>
+        
+        <div>
+            <label for="txtNombre2">Segundo nombre</label>
+            <input type="text" id="txtNombre2">
+        </div>
+        
+        <div>
+            <label for="txtApellido1">Primer apellido</label>
+            <input type="text" id="txtApellido1">
+        </div>
+                
+        <div>
+            <label for="txtApellido2">Segundo apellido</label>
+            <input type="text" id="txtApellido2">
+        </div>
+        
+        <div>
+            <label for="txtFechaNacimiento">Fecha de nacimiento</label>
+            <input type="date" id="txtFechaNacimiento">
+        </div>
+        
+        <div>
+            <label for="txtEdad">Edad</label>
+            <input type="number" min="0" max="120" id="txtEdad">
+        </div>
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="rbtFemenino">Femenino</label>
+            <input type="radio" name="rbtSexo" id="rbtFemenino">
+
+            <label for="rbtMasculino">Masculino</label>
+            <input type="radio" name="rbtSexo" id="rbtMasculino">
+        </fieldset>
+
+        <div>
+            <label for="txtCorreo">Correo electrónico</label>
+            <input type="email" id="txtCorreo">
+        </div>
+
+        <div>
+            <label for="txtTelefono">Teléfono</label>
+            <input type="tel" id="txtTelefono">
+        </div>
+
+        <div>
+            <label for="txtContrasenna">Contraseña</label>
+            <input type="password" id="txtContrasenna">
+        </div>
+
+        <div>
+            <label for="txtConfirmacion">Confirmación</label>
+            <input type="password" id="txtConfirmacion">
+        </div>
+        <button type="button" id="btnRegistrar">Registrar</button>
+    </form>
+</body>
+</html>
