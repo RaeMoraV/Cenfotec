@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/public/css/general.css" />
+    <title>Registro</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de Registro</h1>
+        <nav>
+            <a href="/public/listado-personas.html"><i class="fa fa-users"></i> Información de Usuarios</a>
+            <button id="btn-cerrar-sesion">Cerrar Sesión</button>
+        </nav>
+    </header>
+    <main>
+        <section id="registro-persona">
+
+            <div class="foto">
+                <img id="foto-usuario">
+
+                <button type="button" id="btn-subir-foto">Subir Foto</button>
+            </div>
+
+            <form action="" id="frm-registro">
+                <div class="formulario">
+                    <label for="txtIdentificacion">Cédula</label><br />
+                    <input type="text" name="" id="txtIdentificacion" required />
+                </div>
+
+                <div class="formulario">
+                    <label for="txtCorreo">Correo</label><br />
+                    <input type="email" name="" id="txtCorreo" required />
+                </div>
+
+                <div class="formulario">
+                    <label for="txtCorreo">Fecha</label><br />
+                    <input type="date" name="" id="txtCorreo" required />
+                </div>
+
+                <div class="formulario">
+                    <label for="txtNombre">Nombre Completo</label><br />
+                    <input type="text" name="" id="txtNombre" required />
+                </div>
+
+                <button id="btn-guardar" type="button">
+            Guardar
+          </button>
+            </form>
+        </section>
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!--Script Cloudinary-->
+    <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="/public/js/servicio-personas.js"></script>
+    <script src="/public/js/servicio-imagen.js"></script>
+    <script src="/public/js/registro-controlador.js"></script>
+    <script src="/public/js/cerrar-sesion.js"></script>
+</body>
+
+</html>

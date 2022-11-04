@@ -1,0 +1,179 @@
+/*Estilos generales*/
+
+.error {
+    border: 1px solid orangered;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background: #2193b0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to right, #6dd5ed, #2193b0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to right, #6dd5ed, #2193b0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/*Estilos de header*/
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-left: 25px;
+    line-height: 60px;
+}
+
+nav {
+    width: 30%;
+    line-height: 60px;
+    font-family: "Roboto", sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/*Estilos del formulario*/
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto {
+    width: 150px;
+    height: 200px;
+    background-color: gray;
+    margin: 30px 0px 50px 50px;
+    position: relative;
+}
+
+#btn-subir-foto {
+    position: absolute;
+    top: 260px;
+    left: 0;
+}
+
+#frm-registro {
+    margin-top: 100px;
+}
+
+#registro-persona {
+    width: 35%;
+    height: 800px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.formulario {
+    width: 70%;
+    height: 60px;
+    margin: 15px auto;
+    padding-top: 15px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+#btn-guardar,
+#btn-eliminar,
+#btn-cerrar-sesion {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid orangered;
+    margin-left: 70px;
+    background-color: orangered;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+#btn-guardar:hover,
+#btn-eliminar:hover,
+#btn-cerrar-sesion {
+    cursor: pointer;
+}
+
+#informacion {
+    width: 50%;
+    height: 400px;
+    background-color: #ffffff;
+    margin: 35px auto;
+    border-radius: 35px;
+}
+
+#txt_filtro,
+#label-filtro {
+    width: 50%;
+    margin: 15px auto;
+    margin-left: 35px;
+}
+
+
+/*Estilos de la tabla*/
+
+#informacion-registro {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 85%;
+    margin: auto;
+}
+
+#informacion-registro td,
+#informacion-registro th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#informacion-registro tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#informacion-registro tr:hover {
+    background-color: #ddd;
+}
+
+#informacion-registro th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2193b0;
+    color: white;
+}
+
+#links-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
