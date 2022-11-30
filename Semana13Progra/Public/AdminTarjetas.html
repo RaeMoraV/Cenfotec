@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="aInicio">Inicio</a>
+            <a href="AdminPersonas.html" id="aPersonas">Personas</a>
+            <a href="Login.html" onclick="CerrarSesion()">Cerrar Sesion</a>
+        </nav>
+    </header>
+    <main>
+        <h3>Administración de Tarjetas</h3>
+        <div>
+            <input type="button" id="btnCrea" value="Registrar Tarjeta">
+        </div>
+
+        <div id="FiltroTablas">
+            <label for="txtFiltro">Filtrar</label>
+            <input type="text" id="txtFiltro">
+        </div>
+
+        <table id="tblTarjetas">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Numero Tarjeta</th>
+                    <th>CVV</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tbdTarjetas">
+
+            </tbody>
+            <tfoot id="tftTarjetas">
+
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>

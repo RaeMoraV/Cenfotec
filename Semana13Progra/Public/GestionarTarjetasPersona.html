@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="aInicio">Inicio</a>
+            <a href="AdminPersonas.html" id="aPersonas">Personas</a>
+            <a href="Login.html" onclick="CerrarSesion()">Cerrar Sesion</a>
+        </nav>
+    </header>
+    <h3 id="ttlInicio"> Registrar Tarjeta</h3>
+    <form action="">
+        <div>
+            <label for="txtNombre" id="lblNombre">Nombre</label>
+            <input type="text" id="txtNombre">
+        </div>
+        <div>
+            <label for="txtApellido" id="lblApellido">Apellido</label>
+            <input type="text" id="txtApellido">
+        </div>
+        <div>
+            <label for="txtNumero" id="lblNumero">Numero</label>
+            <input type="text" id="txtNumero">
+        </div>
+        <div>
+            <label for="txtCVV" id="lblCVV">CVV</label>
+            <input type="text" id="txtCVV">
+        </div>
+        <input type="button" id="btnRegistrar" value="Registrar">
+    </form>
+</body>
+</html>
